@@ -4,3 +4,5 @@ Bu uygulama, Onur Ravli tarafından MIT lisansı altında açık kaynaklı olara
 **Türk Dil Kurumu ile bir ilişkisi yoktur.**
 
 ### Kullanım
+
+Uygulamayı kullanabilmek için gerekli endpoint, `/api/v2/sozluk?madde=ARANAN_KELIME` şeklindedir.
