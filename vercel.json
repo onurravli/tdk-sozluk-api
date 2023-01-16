@@ -1,8 +1,8 @@
 {
 	"routes": [
 		{
-			"src": "sozluk",
-			"dest": "index.js"
+			"src": "./",
+			"dest": "./index.js"
 		}
 	]
 }
