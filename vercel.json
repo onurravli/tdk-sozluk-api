@@ -1,8 +1,8 @@
 {
-	// "routes": [
-	// 	{
-	// 		"src": "/(.*)",
-	// 		"dest": "index.js"
-	// 	}
-	// ]
+	"routes": [
+		{
+			"src": "/api/v2/sozluk",
+			"dest": "index.js"
+		}
+	]
 }
