@@ -1,7 +1,7 @@
 {
 	"routes": [
 		{
-			"src": "/api/v2/sozluk",
+			"src": "/*",
 			"dest": "index.js"
 		}
 	]

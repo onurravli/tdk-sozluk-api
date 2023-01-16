@@ -21,7 +21,7 @@ fs.readFile('./src/gts.json', (err, jsonString) => {
 
 app.use(express.static('public'));
 
-app.get('/api/v2/sozluk', (req, res) => {
+app.get('/*', (req, res) => {
 	const madde = req.query.madde;
 	const anlam = data.find((d) => d.madde === madde);
 	console.log(chalk.yellow(`${madde} sorgusu icin sorgu yapiliyor.`));
