@@ -5,7 +5,7 @@ const router = express.Router();
 
 let data;
 
-fs.readFile('./gts.json', (err, jsonString) => {
+fs.readFileSync('./gts.json', (err, jsonString) => {
 	if (err) {
 		console.log(chalk.red(`JSON dosyasi okunurken hata olustu: ${err}`));
 		process.exit(1);
