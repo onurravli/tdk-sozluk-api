@@ -2,10 +2,11 @@ const express = require('express');
 const fs = require('fs');
 const chalk = require('chalk');
 const router = express.Router();
+const path = require('path');
 
 let data;
 
-fs.readFileSync('gts.json', (err, jsonString) => {
+fs.readFileSync(path.resolve(__dirname, './gts.json'), (err, jsonString) => {
 	if (err) {
 		console.log(chalk.red(`JSON dosyasi okunurken hata olustu: ${err}`));
 		process.exit(1);
