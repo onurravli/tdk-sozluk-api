@@ -6,18 +6,7 @@ const path = require('path');
 
 let data;
 
-fs.readFileSync(path.resolve(__dirname, './gts.json'), (err, jsonString) => {
-	if (err) {
-		console.log(chalk.red(`JSON dosyasi okunurken hata olustu: ${err}`));
-		process.exit(1);
-	}
-	try {
-		data = JSON.parse(jsonString);
-	} catch (err) {
-		console.log(chalk.red(`JSON dosyasi ayristirilirken hata olustu: ${err}`));
-		process.exit(1);
-	}
-});
+data = JSON.parse(fs.readFileSync(path.resolve(__dirname, './gts.json')));
 
 router.get('/', (req, res) => {
 	const madde = req.query.madde;
