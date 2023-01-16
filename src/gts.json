@@ -1,0 +1,10 @@
+[
+	{
+		"madde": "kalem",
+		"anlam": "yazi yazmak icin kullanilan nesne"
+	},
+	{
+		"madde": "deneme madde",
+		"anlam": "api test etmek icin uretilmis deneme maddenin anlami."
+	}
+]

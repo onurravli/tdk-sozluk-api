@@ -1,0 +1,22 @@
+body {
+    background-color: #dfdfdf;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+p,
+h1 {
+	font-family: sans-serif;
+	padding: 0;
+}
+
+#container {
+	width: 100%;
+    margin-left: 10%;
+    max-width: 800px;
+	top: 42.5%;
+	position: fixed;
+}
