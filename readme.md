@@ -5,4 +5,4 @@ Bu uygulama, Onur Ravli tarafından MIT lisansı altında açık kaynaklı olara
 
 ### Kullanım
 
-Uygulamayı kullanabilmek için gerekli endpoint, `/api/v2/sozluk?madde=ARANAN_KELIME` şeklindedir.
+Uygulamayı kullanabilmek için gerekli endpoint, `/api/sozluk?madde=ARANAN_KELIME` şeklindedir.
