@@ -26,7 +26,7 @@ app.get('/api/v2/sozluk', (req, res) => {
 	const anlam = data.find((d) => d.madde === madde);
 	console.log(chalk.yellow(`${madde} sorgusu icin sorgu yapiliyor.`));
 	if (anlam) {
-		console.log(chalk.green(`${madde} sorgusu icin ${anlam['anlam']} anlami bulundu.`));
+		console.log(chalk.green(`${madde} maddesi icin ${anlam['anlam']} anlami bulundu.`));
 		res.json(anlam);
 	} else {
 		console.log(chalk.red(`${madde} sorgusu icin herhangi bir anlam bulunamadi.`));
